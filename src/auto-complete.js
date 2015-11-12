@@ -182,6 +182,10 @@ tagsInput.directive('autoComplete', function($document, $timeout, $sce, $q, tags
                 scope.addSuggestion();
             };
 
+            scope.removeSuggestion = function() {
+                console.log('test');
+            };
+
             scope.addSuggestion = function() {
                 var added = false;
 

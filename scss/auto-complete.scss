@@ -45,5 +45,22 @@ tags-input .autocomplete {
       color: $suggestion-highlight-color;
       background-color: $suggestion-highlight-bgcolor;
     }
+
+    .remove-button {
+      margin: 0;
+      padding: 0;
+      border: none;
+      background: none;
+      cursor: pointer;
+      vertical-align: middle;
+      font: $remove-button-font;
+      color: $remove-button-color;
+      float:left;
+      display:inline;
+
+      &:active {
+        color: $remove-button-color-active;
+      }
+    }
   }
 }
